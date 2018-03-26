@@ -1,0 +1,23 @@
+{	
+	"production": {
+		"DB_HOST": "ds121599.mlab.com:21599",
+		"DB_NAME": "url-shortener",
+		"DB_USER": "urlAdmin",
+		"DB_PASS": "dealtap",
+		"WEB_HOST": "http://localhost:3000"
+	},
+	"test": {
+		"DB_HOST": "ds121599.mlab.com:21599",
+		"DB_NAME": "url-shortener",
+		"DB_USER": "urlAdmin",
+		"DB_PASS": "dealtap",
+		"WEB_HOST": "http://localhost:3000"
+	},
+	"development": {
+		"DB_HOST": "ds121599.mlab.com:21599",
+		"DB_NAME": "url-shortener",
+		"DB_USER": "urlAdmin",
+		"DB_PASS": "dealtap",
+		"WEB_HOST": "http://localhost:3000"
+	}
+}
