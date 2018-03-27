@@ -35,10 +35,9 @@ app.use(express.static('public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-
+// route to get all URLs created
 app.get('/u/', function(req, res){
-  // route to create and return a shortened URL given a long URL
-
+  
   URL.find({}).sort({_id: "desc"}).exec((err, docs) => {
 
     if(err){
