@@ -70,10 +70,11 @@ Only a few tests have been created. One to make sure the tests can be initialize
 * There are a few TODOs I have in mind should I continue to build this out:
 
 1. Fix the "Not found" error when you refresh the browser on the details page
-2. Validation on the Front End before sending to the back
-3. Frontend Tests!
-4. In the details URL, have the shortURL be the parameter instead of the URL's DB ID
-5. Separate the testing suite DB or go more in depth to delete records created by the tests
+2. Split up the backend logic into smaller separate component files
+3. Validation on the Front End before sending to the back
+4. Frontend Tests!
+5. In the details URL, have the shortURL be the parameter instead of the URL's DB ID
+6. Separate the testing suite DB or go more in depth to delete records created by the tests
 
 
 ## Built With
