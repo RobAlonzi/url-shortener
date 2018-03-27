@@ -62,19 +62,28 @@ npm run tests
 
 Only a few tests have been created. One to make sure the tests can be initialized and others to make sure the APIs can be called. No front end tests were created. If I continue on with this project I would use Jest as my front end tester. 
 
+## API Endpoints
+
+There are a few API endpoints to hit:
+
+1. `GET /u/` - Gets all created URLs (no visitor stats)
+2. `GET /u/:id/details` - Get specific details including visitors on a url (by ID)
+3. `POST /api/shorten` - Passing along a url parameter, it will return a new shortened URL document
+
 ## Notes
 * I didn't really spend too much type on the style of the app. I used MaterializeCSS for it. The styling could be better, but I was more focused on the functionality.
 
 * I also haven't tested the IP Address functionality. Since I've been working off local, it only ever returns ::1. I recently shut down my Digital Ocean space so I don't have a remote node server to test on. 
 
-* There are a few TODOs I have in mind should I continue to build this out:
+There are a few TODOs I have in mind should I continue to build this out:
 
 1. Fix the "Not found" error when you refresh the browser on the details page
 2. Split up the backend logic into smaller separate component files
 3. Validation on the Front End before sending to the back
-4. Frontend Tests!
-5. In the details URL, have the shortURL be the parameter instead of the URL's DB ID
-6. Separate the testing suite DB or go more in depth to delete records created by the tests
+4. Send more error info to the front on unsuccessful requests. 
+5. Frontend Tests!
+6. In the details URL, have the shortURL be the parameter instead of the URL's DB ID
+7. Separate the testing suite DB or go more in depth to delete records created by the tests
 
 
 ## Built With
